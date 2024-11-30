@@ -1,23 +1,38 @@
-/.phpunit.cache
-/node_modules
-/public/build
-/public/hot
-/public/storage
-/storage/*.key
-/storage/pail
-/vendor
+# Ignore environment files (e.g., .env)
 .env
 .env.backup
 .env.production
-.phpactor.json
+
+# Ignore PHPUnit cache and result cache files
+.phpunit.cache
 .phpunit.result.cache
-Homestead.json
-Homestead.yaml
-auth.json
+
+# Ignore node_modules and package manager logs
+/node_modules
 npm-debug.log
 yarn-error.log
+
+# Ignore public build and hot files
+/public/build
+/public/hot
+/public/storage
+
+# Ignore sensitive storage files (e.g., keys)
+/storage/*.key
+/storage/pail
+
+# Ignore vendor directory (Composer packages)
+/vendor
+
+# Ignore IDE, editor, and PHP tools configurations
 /.fleet
 /.idea
 /.nova
 /.vscode
 /.zed
+.phpactor.json
+
+# Ignore Homestead and other environment-specific config files
+Homestead.json
+Homestead.yaml
+auth.json
